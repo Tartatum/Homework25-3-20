@@ -1,0 +1,100 @@
+body{
+	margin-left: 200px;
+	background-color: #ffe6d0;
+}
+
+ul.navbar {
+	position: absolute;
+	top: 2%;
+	left: 0%;
+	width: 150px;
+}
+img[name="shoe"]{
+	width:120px;
+	height:100px;
+}
+input[name="shoepic"]{
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* IMAGE STYLES */
+input[name="shoepic"] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+input[name="shoepic"]:checked + img {
+  outline: 2px solid #4fb0c6;
+}
+ul.navbar li {
+  margin: 5px;
+  padding: 5px;
+  border-right: 1px solid #17252a;
+  border-top: 1px solid #17252a;
+  border-left: 10px solid #17252a;
+  border-bottom: 1px solid #17252a;
+  list-style-type: none;
+}
+#fname,#lname,#daddr{
+  border-radius: 10px;
+  border: 2px solid ;
+  padding: 10px;
+  font-size:12px;
+	
+}
+.part1 {
+color : blue
+}
+.part2 {
+color : red
+}
+.button {
+  background-color: ; /* Green */
+  background-color: white;
+  color: black;
+  border: 2px solid #337357; /* Green */
+  transition-duration: 0.4s;
+}
+.button2 {padding: 12px 28px;}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+ul.navbar a {
+  text-decoration: none
+}
+a:link{
+	color : red;
+}
+a:visited {
+  color: green;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #d0bcd5;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+<body style="text-align:center;">
